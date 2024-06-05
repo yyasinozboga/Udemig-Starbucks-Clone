@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+img {
+  width: 100%;
+}
+
+button {
+  border: none;
+  outline: none;
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 5px 20px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+main {
+  margin-top: 130px;
+}
+
+hr {
+  width: 90%;
+  margin: 50px auto;
+}
+
+:root {
+  --bg-primary-color: #00573b;
+  --bg-secondary-color: #b9052b;
+  --bg-extra-color: #cee5dd;
+}
+
+.bg-primary {
+  background-color: var(--bg-primary-color);
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary-color);
+}
+
+.bg-extra {
+  background-color: var(--bg-extra-color);
+}
+
+.py-xl {
+  padding: 40px 0;
+}
+
+.h-50 {
+  height: 300px;
+}
+
+.text-xl {
+  font-size: 50px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 6px;
+  margin: 0 auto 20px;
+}
+
+.text-md {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.text-sm {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-light {
+  color: white;
+}
+
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.grid-reversed :first-child {
+  order: 2;
+}
+
+.grid-gap {
+  gap: 20px;
+}
+
+.dark-btn {
+  border: 1px solid black;
+  color: black;
+}
+
+.light-btn {
+  border: 1px solid white;
+  color: white;
+}

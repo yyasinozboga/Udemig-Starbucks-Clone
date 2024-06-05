@@ -1,0 +1,39 @@
+@media (max-width: 1000px) {
+  .header {
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .navbar {
+    display: none;
+  }
+}
+
+@media (max-width: 950px) {
+  .text-xl {
+    font-size: 30px;
+  }
+
+  .text-md {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .text-xl {
+    font-size: 25px;
+  }
+  .text-md {
+    font-size: 17px;
+  }
+
+  .text-sm {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header-right a {
+    display: none;
+  }
+}
